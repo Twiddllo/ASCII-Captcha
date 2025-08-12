@@ -4,7 +4,7 @@ Config-first **ASCII → image** CAPTCHA generator. Single-file Python + Pillow.
 
 
 <p align="center">
-  <img src="docs/captcha-preview.png" alt="Example CAPTCHA preview" width="420">
+  <img src="docs/captcha.png" alt="Example CAPTCHA preview" width="420">
 </p>
 <p align="center"><em>Example preview image — output will vary unless you set <code>random_seed</code> or <code>fixed_code</code>.</em></p>
 
