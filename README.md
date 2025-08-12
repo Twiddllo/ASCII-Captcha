@@ -2,6 +2,13 @@
 
 Config-first **ASCII → image** CAPTCHA generator. Single-file Python + Pillow. Works as a CLI or a library, with deterministic seeding for tests/CI.
 
+
+<p align="center">
+  <img src="docs/captcha-preview.png" alt="Example CAPTCHA preview" width="420">
+</p>
+<p align="center"><em>Example preview image — output will vary unless you set <code>random_seed</code> or <code>fixed_code</code>.</em></p>
+
+
 - Single-file, developer-friendly (simple to customize)
 - Fully `config.json` driven (fonts, noise, palette, seed, output)
 - Importable API + CLI
