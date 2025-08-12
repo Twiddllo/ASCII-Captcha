@@ -1,10 +1,11 @@
 # ASCII CAPTCHA
 
-Tiny, no-nonsense **ASCII → image** CAPTCHA generator. Single file, Python + Pillow. **Config-first** and human-readable.
+Config-first **ASCII → image** CAPTCHA generator. Single-file Python + Pillow. Works as a CLI or a library, with deterministic seeding for tests/CI.
 
-- Single-file, easy to hack
+- Single-file, easy to modify
 - Fully `config.json` driven (fonts, noise, palette, seed, output)
-- Works as library or CLI; deterministic with `random_seed`
+- Importable API + CLI
+- Deterministic mode via `random_seed`
 
 ---
 
@@ -61,7 +62,7 @@ Everything lives in `config.json`. Drop this next to `captcha.py`:
 - `fixed_code` → force a known CAPTCHA (debug only)
 - `ascii_chars` → **DARK → LIGHT** mapping
 - `render.font_size` → **DO NOT USE MORE THAN ~20** or readability drops
-- More noise = harder for bots (but heavier)
+- More noise = harder for bots (and heavier)
 
 ---
 
@@ -119,4 +120,4 @@ def verify(code: str):
 
 ## License & Contributing
 
-MIT
+MIT.
