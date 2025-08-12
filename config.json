@@ -1,0 +1,32 @@
+{
+    "output": "out/captcha.png",
+    "print_code": true,
+    "data_url_output": "out/captcha_data_url.txt",
+  
+    "code_length": 6,
+    "random_seed": 12345,
+    "fixed_code": null,
+  
+    "ascii_chars": "$@B%8&WM# ",
+  
+    "text_to_ascii": {
+      "font_path": null,
+      "font_size": 40,
+      "scale": 2
+    },
+  
+    "render": {
+      "font_path": null,
+      "font_size": 9,
+      "spacing": 1,
+      "noise_lines": 24,
+      "blur_shapes": 40,
+      "apply_blur": true,
+      "extra_noise_shapes": 30,
+      "pixel_noise_density": 0.04,
+      "jitter": 1,
+      "gaussian_blur_radius": 1.1,
+      "shape_blur_radius": 2.0
+    }
+  }
+  
